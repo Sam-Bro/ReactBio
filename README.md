@@ -1,4 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# React Bio
+![version](https://img.shields.io/badge/version-1.0-blue)
+
+> Creating a portfolio using React 
+
+updating portfolio and other materials to build towards being employer competetive. This project was built because Having a place to share your projects is necessary if you're applying for jobs, but is still critical on your journey as a developer.. The React Bio helps solve the problem of provides all my professional information in one place. In the duration of this project, I learned converting a application to react.
+
+## Table of Contents
+
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Licence](#Licence)
+- [Contributing](#Contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+
+### Installation
+To install and use this application, reactjs
 
 ## Available Scripts
 
@@ -37,32 +56,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## licence
+project licences: 
+ none
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## contributing
+contributions are not currently open to public.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## tests
+No tests available
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## questions
+  - github Repository: https://github.com/Sam-Bro/reactbio
+  - github: https://sam-bro.github.io/
+  - Created by Samuel Broughton
+    
