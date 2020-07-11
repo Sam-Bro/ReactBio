@@ -1,38 +1,206 @@
-.App {
+/* background colour */
+body {
+  background-color: #111;
+  color: white ;
+  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
+  height: 1200px;
+}
+p {
+  font-size: 24px !important;
+  color: white !important;
+}
+h3,
+h4 {
+  color: white !important;
+}
+/*coloured title in navbar*/
+.nav-title {
+  background-color: #8300e9;
+  padding: 13px 20px;
+}
+.navbar-full {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* grey divider and padding between navbar links */
+.link-border {
+  border-right: 1px solid darkgrey;
+  border-left: 1px solid darkgrey;
+}
+.link-gap,
+.link-border {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #8300e9 !important;
+}
+/*gap between about image and p text */
+.about-img {
+  padding-right: 5px;
+}
+
+/*main content card alignment */
+.prof-about-card {
+  margin-top: 2%;
+  margin-left: 5%;
+  background-color: #333333;
+}
+.card-width {
+  width: 80%;
+  min-width: 200px;
+}
+.card-text {
+  margin: 0;
+  width: 70%;
+  font-size: 1.2em;
+}
+
+/* profile block styles */
+.profile-img-col {
+  display: block;
+}
+.profile-text-col {
+  margin-top: 2%;
+}
+#profile-title {
+  color: #8300e9;
+  padding-bottom: 15px;
+}
+.prof-img {
+  margin-left: 20%;
+  width: 50%;
+  border-radius: 5%;
+}
+.prof-img {
+  margin-left: 20%;
+}
+.center-70 {
+  width: 70%;
+  text-align: center;
+}
+.my-link {
+  color: #8300e9;
+}
+
+.view-work {
+  padding-top: 3%;
+}
+/*grey border between content card title and card content */
+.about-border {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #8300e9;
+}
+/*fixed footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*change card width when display is over 1025px */
+/* @media only screen and (min-width: 1025px) {
+  .card-width {
+    width: 50%;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+                    /* Portfolio styles */
+
+/* main content container */
+.container {
+  min-width: 320px;
+}
+/* text overlay for portfolio images*/
+.overlay {
+  background-color: #333;
+  padding: 5px 0;
   color: white;
+  text-align: center;
+  width: 85%;
+}
+.caption {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-left: 5px;
+}
+/* container styles */
+.row-gap {
+  padding-top: 30px;
+}
+.cont-style {
+  margin-top: 50px;
+  margin-bottom: 500px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background-color: #333;
+}
+/*image styles */
+.img {
+  display: block;
+  width: 350px;
+  height: 160px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.proj-img {
+  position: relative;
+  display: inline-block;
+}
+.port-text {
+  font-size: 15px;
+}
+.github-icon {
+  text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 765px) {
+  .img-port {
+    padding-top: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .cont-style {
+    width: 50% !important;
   }
+}
+
+                      /* contact styles */
+
+/* contact form main content box*/
+.contact-box {
+  width: 80%;
+  padding: 20px;
+  margin-top: 2%;
+  margin-left: 5%;
+  background-color: lavender;
+  border-radius: 20px;
+}
+.contact-border {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #6a5acd;
+}
+/*submit button styles*/
+.btn-color {
+  background-color: #6a5acd !important;
+  border-color: #6a5acd !important;
+  color: white !important;
+}
+.form-control {
+  width: 90%;
+}
+
+.textDark {
+  color: #6a5acd !important;
+  font-weight: 700;
+}
+
+.exampleFormControlInput1, 
+.exampleFormControlTextarea1 {
+  width: 100%;
 }

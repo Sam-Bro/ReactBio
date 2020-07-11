@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
-import App from './App'
+import { Route, BrowserRouter as Router } from 'react-router-dom'
 import Portfolio from './portfolio'
 import Contact from './contact'
+import App from './App'
 const routing = (
   <Router>
     <div>
